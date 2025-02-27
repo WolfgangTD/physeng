@@ -1,4 +1,5 @@
 #include <cmath>
+#pragma once
 
 struct Vec3
 {
