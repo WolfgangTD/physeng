@@ -40,7 +40,7 @@ int main(int argc, char* argv[]){
 	smallBall.point = {300, 300, 0};
 	smallBall.radius = 25;
 	smallBall.gravity = GRAVITY;
-	smallBall.vel = {15000, 20000, 0};
+	smallBall.vel = {1500, 2000, 0};
 
 	Uint64 lastPerformanceCounter = SDL_GetPerformanceCounter();
 	Uint64 performanceFrequency = SDL_GetPerformanceFrequency();
